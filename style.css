@@ -1,0 +1,297 @@
+.ali-1st-navbar {
+    list-style: none !important;
+    height: 70px !important;
+    display: flex !important;
+    justify-content: center !important ;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(157, 150, 150, 0.2);
+}
+
+.ali-1st-navbar-icon-image {
+    padding: 8px;
+}
+
+.ali-1st-navbar-icon-image-1 {
+    background-color: white !important;
+    box-shadow: 2px 4px 7px rgb(99, 99, 99) !important;
+    border: 2px solid rgba(128, 128, 128, 0.171) !important;    
+}
+
+.ali-1st-navbar-icon-image-2 , .ali-1st-navbar-icon-image-3 {
+    border-width: 0px 1px 1px 0px !important;
+    border-style: solid !important;
+    border-color: rgba(128, 128, 128, 0.166);
+}
+
+.ali-1st-navbar-icon-image-2:hover , .ali-1st-navbar-icon-image-3:hover {
+    cursor: pointer !important;
+    animation: bouncing 0.5s ease-in 1ms !important;
+    opacity: 1 !important;
+}
+
+.ali-1st-navbar-icon-image:hover {
+    cursor: pointer !important;
+    opacity: 0.4;
+}
+
+/* @media (max-width: 360px) {
+    .ali-1st-navbar {
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        position: fixed;
+        margin-top: 0;
+    }
+}
+
+/* ----------------------------------------------second navbar-------------------------------------------- */
+
+.navbar {
+    padding: 0px !important;
+}
+
+.ali-2nd-navbar {
+    margin-left: 331px;
+}
+
+.ali-nav-item{
+    padding: 10px !important;
+}
+
+.ali-nav-item-1:hover {
+    background-color: #747373 !important;
+}
+
+.ali-nav-item-2:hover {
+    background-color: #E3350D !important;
+}
+
+.ali-nav-item-3:hover {
+    background-color: #ee6b2f !important;
+}
+
+.ali-nav-item-4:hover {
+    background-color: #e6bc2f !important;
+}
+
+.ali-nav-item-5:hover {
+    background-color: #4dad5b !important;
+}
+
+.ali-nav-item-6:hover {
+    background-color: #30a7d7 !important;
+}
+
+.ali-nav-item-7:hover {
+    background-color: #1b53ba !important;
+}
+
+/* ----------------------------------------------------------second navbar color line----------------------------------------------- */
+
+.second-navbar-color-line-1 {
+    background-color:#747373;
+    width: 80px !important;
+    border-radius:0px 0px 0px 5px !important;
+}
+
+.second-navbar-color-line-2 {
+    background-color:#E3350D;
+    width: 94px !important;
+}
+
+.second-navbar-color-line-3 {
+    background-color:#ee6b2f;
+    width: 187px !important;
+}
+
+.second-navbar-color-line-4 {
+    background-color:#e6bc2f;
+    width: 172px !important;
+}
+
+.second-navbar-color-line-5 {
+    background-color:#4dad5b;
+    width: 108px !important;
+}
+
+.second-navbar-color-line-6 {
+    background-color:#30a7d7;
+    width: 190px !important;
+}
+
+.second-navbar-color-line-7 {
+    background-color:#1b53ba;
+    width: 75px !important;
+    border-radius:0px 0px 5px 0px !important;
+}
+
+.second-navbar-color-line {
+    height: 10px !important;
+    margin-left: 331px !important;
+    display: flex !important;
+}
+
+/* -----------------------------------------------card body -----------------------------------------------*/
+/* 
+@media (max-width: 992px) {
+    .card {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+} */
+
+.ali-body-background {
+    background-image: url(./bodyimages/body_bg.png);
+}
+
+.ali-body-background-2 {
+    background-image: url(./bodyimages/body_bg2.png);
+    width: 1224px !important;
+    height: 2500px;
+    display: flex !important;
+    margin-left: 164px;
+    justify-content: space-around;
+    
+}
+
+.ali-card {
+    background-color: white;
+    border: 20px solid white;
+    width: 800px !important;
+    height: 770px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    grid-template-rows: 0fr 0fr 0fr !important;
+    gap: 0px 10px !important;
+}
+
+.card-1 {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 3 !important;
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+.card-1:hover {
+    animation: bouncing 0.5s ease-in 1ms;
+    cursor: pointer;
+    .card-body {opacity: 0.5 !important;} 
+}
+
+
+.card-2 {
+    grid-column-start: 3 !important;
+    grid-column-end: 4 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    width: 127px !important;
+    height: 200px !important;
+}
+
+.card-2:hover {
+    animation: bouncing 0.5s ease-in 1ms;
+    cursor: pointer;
+    .card-body {opacity: 0.5 !important;} 
+}
+
+
+.card-3 {
+    grid-column-start: 3 !important;
+    grid-column-end: 4 !important;
+    width: fit-content !important;
+    height: fit-content !important;
+    position: relative!important;
+    margin-top: 10px;
+}
+
+.card-3:hover {
+    animation: bouncing 0.5s ease-in 1ms;
+    cursor: pointer;
+    .card-body {opacity: 0.5 !important;} 
+}
+
+
+.card-4 {
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+.card-4:hover {
+    animation: bouncing 0.5s ease-in 1ms;
+    cursor: pointer;
+    .card-body {opacity: 0.5 !important;} 
+}
+
+.card-5 {
+    grid-column-start: 2 !important;
+    grid-column-end: 3 !important;
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+.card-5:hover {
+    animation: bouncing 0.5s ease-in 1ms;
+    cursor: pointer;
+    .card-body {opacity: 0.5 !important;}   
+}
+
+.card-6 {
+    grid-column-start: 3 !important;
+    grid-column-end: 4 !important;
+    width: fit-content !important;
+    height: fit-content !important;
+    margin-top: 10px !important;
+}
+
+.card-6:hover {
+    animation: bouncing 0.5s ease-in 1ms;
+    cursor: pointer;
+    .card-body {opacity: 0.5 !important;}    
+}
+
+@keyframes bouncing {
+  50% {
+    transform: translate(0px, -10px);
+  }
+}
+
+/* ----------------------------------------------------------------- carousel ---------------------------------------------------- */
+
+.ali-carousel {
+    width: 1224px !important;
+    background-color: rgb(139, 137, 137) !important;
+    position: absolute !important;
+    margin-top: 800px !important;
+}
+
+.carousel-inner {
+    width: 450px !important;
+    background-color: rgb(224, 19, 19) !important;
+}
+
+.carousel-item {
+   
+}
+
+.ali-1st-carousel-icon-image {
+ 
+}
